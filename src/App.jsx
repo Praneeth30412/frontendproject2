@@ -1,40 +1,35 @@
-import { useState } from 'react';
-import './App.css';
-import { Link } from 'react-router-dom';
-
+import { useState } from 'react'
+import './App.css'
+import {Link} from 'react-router-dom';
 function App() {
-  const [count, setCount] = useState(0);
-
-  const linkBoxStyle = {
-    padding: '10px 20px',
-    borderRadius: '8px',
-    backgroundColor: '#fff',
-    color: 'black',
-    textDecoration: 'none',
-    fontWeight: 'bold',
-    boxShadow: '2px 2px 8px rgba(0,0,0,0.2)',
-    transition: 'transform 0.2s',
-    display: 'inline-block',
-  };
-
-  const linkContainerStyle = {
-    display: 'flex',
-    justifyContent: 'space-between',
-    marginTop: '40px',
-    padding: '0 40px',
-  };
+  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1>Welcome to the Web Page of Cricket</h1>
-      <h2>Today's topic is about KLR and MSD</h2>
-
-      <div style={linkContainerStyle}>
-        <Link to="/page1" style={linkBoxStyle}>Go to Page1</Link>
-        <Link to="/page2" style={linkBoxStyle}>Go to Page2</Link>
-      </div>
+      <h1>
+        Welome to FEDF class in KLU
+      </h1>
+      <h2>
+        Today's topic is Introduction to React
+      </h2>
+      <h3>
+        Today's Date is 29.07.25
+      </h3>
+      <h4>
+        2400030412-Datta Prasad
+      </h4>
+       <Link to="/page1">Go To Page1</Link>
+       <br/>
+       <br/>
+       <Link to="/page2">Go To Page2</Link>
+       <br/>
+       <br/>
+      <Link to="/page3">Go To Page3</Link>
+       <br/>
+       <br/>
+       <Link to="/page4">Go To Page4</Link>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
