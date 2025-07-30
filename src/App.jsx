@@ -16,7 +16,7 @@ function App() {
         Today's Date is 29.07.25
       </h3>
       <h4>
-        2400030412-Datta Prasad
+        2400030412-G praneeth
       </h4>
        <Link to="/page1">Go To Page1</Link>
        <br/>
