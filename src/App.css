@@ -1,0 +1,101 @@
+/* App.css */
+
+/* General setup */
+/* General setup */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  background-color: rgb(173, 135, 32);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#section {
+  background-color: bisque;
+  min-height: calc(100vh - 100px);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Intro box styling */
+.intro-box {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 80%;
+}
+
+/* Page cards layout */
+.page-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Page box */
+.page-box {
+  width: 160px;
+  height: 200px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+.page-box:hover {
+  transform: scale(1.05);
+}
+
+/* Image inside box */
+.page-box img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Link styling */
+.page-box a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  margin-top: 5px;
+}
+
+.page-box a:hover {
+  color: rgb(173, 135, 32);
+}
+
+/* Footer */
+#footer {
+  background-color: rgb(87, 54, 11);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}

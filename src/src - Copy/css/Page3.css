@@ -1,0 +1,45 @@
+/* Page3.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, purple, blue);
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+#navlist {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+#navlist li {
+  color: white;
+  cursor: pointer;
+}
+
+section {
+  padding: 2rem;
+}
+
+footer {
+  background: linear-gradient(to right, red, blue);
+  text-align: center;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
